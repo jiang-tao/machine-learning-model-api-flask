@@ -40,5 +40,5 @@ RUN chmod -R g=u /etc/passwd && \
 USER analytics
 WORKDIR /analytics
 
-ENTRYPOINT ["/analytics/uid_entrypoint.sh"]
+ENTRYPOINT ["sh","/analytics/uid_entrypoint.sh"]
 CMD ["gunicorn", "--bind", "0.0.0.0:8080", "apiserver.scoring_server:app" ]
