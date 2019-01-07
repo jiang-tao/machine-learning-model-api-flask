@@ -1,0 +1,31 @@
+{
+    "algorithm": "LinearRegression", 
+    "algorithmType": "Regression", 
+    "author": "1026", 
+    "createdAt": 1546842005964, 
+    "features": [
+        {
+            "name": "YearsExperience", 
+            "sample": 8.7, 
+            "type": "float"
+        }
+    ], 
+    "id": 1546842005964, 
+    "isPublished": false, 
+    "labelColumns": [
+        {
+            "name": "0", 
+            "type": "float"
+        }
+    ], 
+    "latestModelVersion": 3, 
+    "learningType": "Supervised", 
+    "name": "salary_linear_reg", 
+    "params": {}, 
+    "publishedBy": "", 
+    "publishedModelVersion": -1, 
+    "runtime": "Python27", 
+    "serialization": "joblib", 
+    "source": "", 
+    "type": "scikit-learn-0.19"
+}
